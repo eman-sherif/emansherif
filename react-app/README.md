@@ -1,1 +1,0 @@
-This is my personal website created in React and TypeScript 
