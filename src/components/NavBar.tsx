@@ -33,7 +33,7 @@ const NavBar: React.FC<NavBarProps> = () => {
                 <Button color="inherit" href="#projects">
                     Projects
                 </Button>
-                <Button color="inherit" href="https://drive.google.com/file/d/1wIltX3uDRo8rtXrvoBs3o30oW9c0ZVrC/view?usp=sharing">
+                <Button color="inherit" href="https://drive.google.com/file/d/1o06PP2plnbn3gFJMdzvx_Syjbm-stB-K/view?usp=sharing">
                     CV
                 </Button>
 
