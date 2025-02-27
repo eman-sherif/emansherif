@@ -1,9 +1,8 @@
 import React from "react";
 import "../styles/Projects.css";
-import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
+import FolderOpenRounded from "@mui/icons-material/FolderOpenRounded";
 import FadeInSection from "./FadeInSection";
-import Carousel from "react-bootstrap/Carousel";
-import Button from "@material-ui/core/Button";
+import { Button } from "@mui/material";
 
 class Projects extends React.Component {
     constructor(props: {}) {
@@ -32,9 +31,9 @@ class Projects extends React.Component {
                                 <li className="projects-card">
                                     <div className="card-header">
                                         <div className="folder-icon">
-                                            <FolderOpenRoundedIcon
+                                            <FolderOpenRounded
                                                 style={{ fontSize: 35 }}
-                                            ></FolderOpenRoundedIcon>
+                                            ></FolderOpenRounded>
                                         </div>
                                     </div>
                                     <div className="card-titles">{"Exploring the impact of Assessment Policies on Marginalized Students' Experience in Post-Secondary Programming Courses"}</div>

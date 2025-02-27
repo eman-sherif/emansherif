@@ -1,9 +1,8 @@
 import React from "react";
 
 import "../styles/Intro.css";
-import Typist from "react-typist";
-import "react-typist/dist/Typist.css";
-import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
+import { Typewriter } from 'react-simple-typewriter';
+import EmailRounded from "@mui/icons-material/EmailRounded";
 import FadeInSection from "./FadeInSection";
 
 class Intro extends React.Component {
@@ -27,12 +26,12 @@ class Intro extends React.Component {
                 <div className="intro-image">
                     <img alt="bismillah" src={"/assets/bismillah.png"} width={450} height={150} />
                 </div>
-                <Typist avgTypingDelay={200}>
-                    <span className="intro-title">
-                        {"Hi, I'm "}
-                        <span className="intro-name">{"Eman."}</span>
-                    </span>
-                </Typist>
+                <div className="intro-name">
+                    <Typewriter
+                        words={["Hi, I'm Eman."]}
+                        typeSpeed={200}
+                    />
+                </div>
                 <FadeInSection>
                     <div className="intro-subtitle">It's nice to meet you!</div>
                     <div className="intro-desc">
@@ -44,7 +43,7 @@ class Intro extends React.Component {
                         href="mailto:emans@uw.edu"
                         className="intro-contact"
                     >
-                        <EmailRoundedIcon></EmailRoundedIcon>
+                        <EmailRounded></EmailRounded>
                         {" Say hi!"}
                     </a>
                 </FadeInSection>

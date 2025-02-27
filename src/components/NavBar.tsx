@@ -3,8 +3,6 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
 import Button from '@mui/material/Button';
 import "../styles/NavBar.css";
 
@@ -33,7 +31,7 @@ const NavBar: React.FC<NavBarProps> = () => {
                 <Button color="inherit" href="#projects">
                     Projects
                 </Button>
-                <Button color="inherit" href="https://drive.google.com/file/d/1wIltX3uDRo8rtXrvoBs3o30oW9c0ZVrC/view?usp=sharing">
+                <Button color="inherit" href="https://drive.google.com/file/d/1o06PP2plnbn3gFJMdzvx_Syjbm-stB-K/view?usp=sharing">
                     CV
                 </Button>
 
