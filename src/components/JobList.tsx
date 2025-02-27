@@ -41,7 +41,7 @@ function a11yProps(index: number) {
 export default function VerticalTabs() {
     const [value, setValue] = React.useState(0);
 
-    const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+    const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
         setValue(newValue);
     };
 
@@ -59,7 +59,7 @@ export default function VerticalTabs() {
                     sx={{ borderRight: 1, borderColor: 'divider' }}
                 >
 
-                    <Tab label="Georgia Tech Research Institute" {...a11yProps(0)} />
+                    <Tab label="GTRI" {...a11yProps(0)} />
                     <Tab label="Dell Technologies" {...a11yProps(1)} />
                     <Tab label="UC San Diego" {...a11yProps(2)} />
                     <Tab label="Insulet" {...a11yProps(3)} />
@@ -67,7 +67,7 @@ export default function VerticalTabs() {
                 </Tabs>
             </div>
             <TabPanel value={value} index={0}>
-                <div className='joblist-job-title'>Research Intern</div>
+                <div className='joblist-job-title'>Georgia Tech Research Institute: Research Intern</div>
                 <div className='joblist-duration'> May 2022 - August 2022 </div>
                 <FadeInSection>
                     <ul className='job-description'>
