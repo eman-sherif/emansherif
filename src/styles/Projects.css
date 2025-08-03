@@ -36,6 +36,36 @@
     background-color: var(--lightest-navy);
 }
 
+.projects-desc {
+    color: var(--slate);
+    font-family: "NTR", sans-serif;
+    font-size: 14px;
+
+
+}
+
+.publications {
+    color: var(--slate);
+    font-family: "NTR", sans-serif;
+    font-size: 18px;
+}
+
+.publications-desc {
+    color: var(--slate);
+    margin-left: 40px;
+    font-family: "NTR", sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    /* Ensures the element respects padding */
+    border-width: 4px dashed var(--slate);
+
+    /* Dotted underline */
+    padding-inline-start: 4px;
+    /*Adjust padding as needed */
+}
+
+
+
 .card-header {
     margin-top: -20px;
     display: flex;

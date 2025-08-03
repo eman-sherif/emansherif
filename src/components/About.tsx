@@ -19,8 +19,8 @@ class About extends React.Component {
     render() {
         const one = (
             <p>
-                I am particularly interested in creating equitable and inclusive computer science assessments.
-                I am interested in how current assessment practices create inequities for marginalized students
+                I am interested in creating equitable and inclusive computer science classrooms.
+                I aim to understand how current assessment practices create inequities for marginalized students
                 and how to encourage the use of more equitable assessment practicies to mitigate these inequities. Moreover,
                 I am interested in how to co-construct computer science assessment with students and how to scale this process in large
                 classes.
@@ -28,7 +28,7 @@ class About extends React.Component {
         );
         const two = (
             <p>
-                Recently, I recieved the National Science Foundation gradate research fellowship
+                Recently, I recieved the <b>National Science Foundation Gradate Research Fellowship</b>
             </p>
         );
 
