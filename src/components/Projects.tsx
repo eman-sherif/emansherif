@@ -1,8 +1,5 @@
 import React from "react";
 import "../styles/Projects.css";
-import FolderOpenRounded from "@mui/icons-material/FolderOpenRounded";
-import FadeInSection from "./FadeInSection";
-import { Button } from "@mui/material";
 
 class Projects extends React.Component {
     constructor(props: {}) {
