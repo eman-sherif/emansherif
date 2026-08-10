@@ -1,0 +1,10 @@
+.appbar {
+    background-color: var(--navy);
+    color: var(--lightest-slate);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.button {
+    font-family: "NTR";
+}
