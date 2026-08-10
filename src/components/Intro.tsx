@@ -35,9 +35,10 @@ class Intro extends React.Component {
                 <FadeInSection>
                     <div className="intro-subtitle">It's nice to meet you!</div>
                     <div className="intro-desc">
-                        I am currently a 3rd year PhD Student at
-                        the University of Washington, Seattle advised by <a href="https://faculty.washington.edu/ajko/"> Amy Ko</a>. My research
-                        interests are in equitable computer science education.
+                        I am currently a 5th year PhD Candidate at
+                        the University of Washington, Seattle advised by <a href="https://faculty.washington.edu/ajko/"> Amy Ko</a> and a student researcher in
+                        the <a href="https://www.computinged.uw.edu/"> Center for Learning, Computing, and Imagination</a>. My research
+                        interests are in human computer interaction and equitable computer science education.
                     </div>
                     <a
                         href="mailto:emans@uw.edu"

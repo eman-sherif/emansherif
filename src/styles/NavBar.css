@@ -8,3 +8,12 @@
 .button {
     font-family: "NTR";
 }
+
+.scholar-icon {
+    color: var(--green-bright);
+    transition: color 0.2s ease;
+}
+
+.scholar-icon:hover {
+    color: var(--brand-accent);
+}

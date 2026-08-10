@@ -18,85 +18,83 @@
     }
 }
 
-.projects-card {
-    position: relative;
-    cursor: default;
+
+/* Add these rules to your existing Projects.css */
+
+
+.entry {
+    padding: 1.1rem 0;
+}
+
+.entry:last-child {
+    border-bottom: none;
+}
+
+.entry-eyebrow {
     display: flex;
-    flex-direction: column;
-    /* align-items: flex-start; */
-    position: relative;
-    height: 100%;
-    padding: 2rem 1.75rem;
-    background-color: var(--light-navy);
-    border-radius: 16px;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.projects-card:hover {
-    transform: translateY(-7px);
-    background-color: var(--lightest-navy);
-}
-
-.projects-desc {
-    color: var(--slate);
-    font-family: "NTR", sans-serif;
-    font-size: 14px;
-
-
-}
-
-.publications {
-    color: var(--slate);
-    font-family: "NTR", sans-serif;
-    font-size: 18px;
-}
-
-.publications-desc {
-    color: var(--slate);
-    margin-left: 40px;
-    font-family: "NTR", sans-serif;
-    font-size: 18px;
+.entry-badge {
     display: inline-block;
-    /* Ensures the element respects padding */
-    border-width: 4px dashed var(--slate);
-
-    /* Dotted underline */
-    padding-inline-start: 4px;
-    /*Adjust padding as needed */
+    font-family: "NTR", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    background: var(--green-bright);
+    border: 1px solid var(--lightest-slate);
+    border-radius: 999px;
+    padding: 0.2rem 0.7rem;
 }
 
-
-
-.card-header {
-    margin-top: -20px;
-    display: flex;
-    padding: 1.25em 0 !important;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: none !important;
+.entry-tag {
+    font-size: 0.78rem;
+    color: var(--lightest-slate);
 }
 
-.folder-icon {
-    color: var(--green-bright);
+.entry-title {
+    font-family: "NTR", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.45;
+    margin: 0 0 0.35rem;
+    color: var(--lightest-slate);
 }
 
-.card-titles {
+.entry-authors {
+    font-size: 16px;
+    font-family: "NTR", sans-serif;
+    color: var(--slate);
+
+}
+
+.entry-award {
+    font-size: 16px;
     font-family: "NTR", sans-serif;
     color: var(--lightest-slate);
-    font-size: 15px;
-    font-weight: bold;
+
 }
 
-.card-desc {
+.entry-authors .me {
+    color: var(--lightest-slate);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+
+.entry-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
     font-family: "NTR", sans-serif;
-    color: var(--slate);
-    font-size: 20px;
-    padding-bottom: 100px;
 }
 
-@media only screen and (max-width: 600px) {
-    #projects {
-        height: unset;
-        padding-left: unset;
-        padding-right: unset;
-    }
+.entry-link {
+    font-size: 0.85rem;
+    font-family: "NTR", sans-serif;
+    text-decoration: none;
 }

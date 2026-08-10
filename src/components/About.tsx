@@ -19,16 +19,17 @@ class About extends React.Component {
     render() {
         const one = (
             <p>
-                I am interested in creating equitable and inclusive computer science classrooms.
-                I aim to understand how current assessment practices create inequities for marginalized students
-                and how to encourage the use of more equitable assessment practicies to mitigate these inequities. Moreover,
-                I am interested in how to co-construct computer science assessment with students and how to scale this process in large
-                classes.
+                My research examines how computing education
+                often overlooks the needs of marginalized students, leading many to internalize their struggles as personal failure and shame.
+                I primarially do this by analyzing course policies, practices, and assessments and how this compromise fuels negative emotional experiences.
+                Ultimately, I aim to reimagine computing learning environments as spaces co-designed with students, to reduce shame and address the inequities they face.
+
             </p>
         );
         const two = (
             <p>
-                Recently, I recieved the <b>National Science Foundation Gradate Research Fellowship</b>
+                I have been honored to recieve the GEM fellowship, the UW College of Engineering
+                Dean's Fellowship, and the National Science Foundation Gradate Research Fellowship to support this work.
             </p>
         );
 

@@ -3,11 +3,21 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
+import LinkedIn from '@mui/icons-material/LinkedIn';
+import { SiGooglescholar } from "react-icons/si";
+
 import Button from '@mui/material/Button';
 import "../styles/NavBar.css";
 
 // Define Props if any (Here no props are passed, but you can define them if needed)
 interface NavBarProps { }
+function ScholarLink() {
+    return (
+        <a href="https://scholar.google.com/citations?user=kxpibVwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+            <SiGooglescholar size={24} className="scholar-icon" />
+        </a>
+    );
+}
 
 const NavBar: React.FC<NavBarProps> = () => {
     return (
@@ -19,6 +29,16 @@ const NavBar: React.FC<NavBarProps> = () => {
                 <Button href="#">
                     Eman Sherif
                 </Button>
+                <IconButton color="inherit" href="https://www.linkedin.com/in/eman-sherif-b37522197/">
+                    <LinkedIn />
+                </IconButton>
+
+                <IconButton color="inherit">
+                    <ScholarLink />
+                </IconButton>
+                <IconButton color="inherit" href="emans@uw.edu">
+                    <EmailRoundedIcon />
+                </IconButton>
 
 
                 {/* Navigation Links (can be buttons or links) */}
@@ -33,9 +53,7 @@ const NavBar: React.FC<NavBarProps> = () => {
                 </Button>
 
                 {/* Icons */}
-                <IconButton color="inherit" href="emans@uw.edu">
-                    <EmailRoundedIcon />
-                </IconButton>
+
                 {/* <IconButton
                     color="inherit"
                     href="#"
