@@ -36,7 +36,7 @@ const NavBar: React.FC<NavBarProps> = () => {
                 <IconButton color="inherit">
                     <ScholarLink />
                 </IconButton>
-                <IconButton color="inherit" href="emans@uw.edu">
+                <IconButton color="inherit" href="mailto:emans@uw.edu">
                     <EmailRoundedIcon />
                 </IconButton>
 
